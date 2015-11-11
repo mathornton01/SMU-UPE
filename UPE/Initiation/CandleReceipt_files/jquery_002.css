@@ -1,0 +1,439 @@
+img {border:none;}
+
+
+.jcarousel-skin-tango .jcarousel-container {
+    width: 850px;
+    height: 172px;
+    background: url(/images/CatRecs_back.png) no-repeat;
+	vertical-align:middle;
+}
+
+.jcarousel-skin-tango .jcarousel-container-horizontal {}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {width:  609px; margin-left: 40px; height: 172px;}
+.jcarousel-skin-tango .jcarousel-item {width: 162px; text-align:center;}
+.jcarousel-skin-tango .jcarousel-item-horizontal {}
+.jcarousel-skin-tango ul {margin-top: 20px;}
+.jcarousel-skin-tango .jcarousel-item-placeholder {background: #fff; color: #000;}
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/CatRecs_moreRight.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/CatRecs_moreRight_on.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-next-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/CatRecs_moreRight_off.png) no-repeat 0 0;
+}
+
+/*.jcarousel-skin-tango .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}*/
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/CatRecs_moreLeft.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/CatRecs_moreLeft_on.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-tango .jcarousel-prev-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/CatRecs_moreLeft_off.png) no-repeat 0 0;
+}
+
+
+
+
+
+/*. Category recs carousel */
+
+#CatRecs_wrap .jcarousel-container {
+	width: 699px;
+    height: 224px;
+	vertical-align:middle;
+}
+
+#CatRecs_wrap .jcarousel-container-horizontal {}
+#CatRecs_wrap .jcarousel-clip-horizontal {width: 679px; margin-left: 3px; height: 224px;}
+#CatRecs_wrap .jcarousel-item {text-align:center;}
+#CatRecs_wrap .jcarousel-item-horizontal {}
+#CatRecs_wrap ul {}
+#CatRecs_wrap .jcarousel-item-placeholder {}
+#CatRecs_wrap .jcarousel-list li {width: 134px; height: 224px;}
+
+
+/**
+ *  Horizontal Buttons
+ */
+#CatRecs_wrap .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight.png) no-repeat 0 0;
+}
+
+#CatRecs_wrap .jcarousel-next-horizontal:hover #CatRecs_wrap
+
+#CatRecs_wrap .jcarousel-next-disabled-horizontal,
+#CatRecs_wrap .jcarousel-next-disabled-horizontal:hover,
+#CatRecs_wrap .jcarousel-next-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight_off.png) no-repeat 0 0;
+}
+
+/*#CatRecs_wrap .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}*/
+
+#CatRecs_wrap .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft.png) no-repeat 0 0;
+}
+
+#CatRecs_wrap .jcarousel-prev-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_on.png) no-repeat 0 0;
+}
+
+#CatRecs_wrap .jcarousel-prev-disabled-horizontal,
+#CatRecs_wrap .jcarousel-prev-disabled-horizontal:hover,
+#CatRecs_wrap .jcarousel-prev-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_off.png) no-repeat 0 0;
+}
+
+
+
+
+/*. Related Products carousel */
+
+.jcarousel-skin-related .jcarousel-container {
+	width: 900px;
+    height: 224px;
+	vertical-align:middle;
+}
+
+.jcarousel-skin-related .jcarousel-container-horizontal {}
+.jcarousel-skin-related .jcarousel-clip-horizontal {width: 533px; margin-left: 4px; height: 224px;}
+.jcarousel-skin-related .jcarousel-item {text-align:center;}
+.jcarousel-skin-related .jcarousel-item-horizontal {}
+.jcarousel-skin-related ul {}
+.jcarousel-skin-related .jcarousel-item-placeholder {}
+.jcarousel-skin-related .jcarousel-list li {width: 135px; height: 224px;}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-skin-related .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-related .jcarousel-next-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight_on.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-related .jcarousel-next-disabled-horizontal,
+.jcarousel-skin-related .jcarousel-next-disabled-horizontal:hover,
+.jcarousel-skin-related .jcarousel-next-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight_off.png) no-repeat 0 0;
+}
+
+/*.jcarousel-skin-related .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}*/
+
+.jcarousel-skin-related .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-related .jcarousel-prev-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_on.png) no-repeat 0 0;
+}
+
+.jcarousel-skin-related .jcarousel-prev-disabled-horizontal,
+.jcarousel-skin-related .jcarousel-prev-disabled-horizontal:hover,
+.jcarousel-skin-related .jcarousel-prev-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_off.png) no-repeat 0 0;
+}
+
+
+/*. homepage Products carousel */
+
+#productSpace .jcarousel-container {
+	width: 933px;
+    height: 224px;
+	vertical-align:middle;
+}
+
+#productSpace .jcarousel-container-horizontal {}
+#productSpace .jcarousel-clip-horizontal {width: 916px; margin-left: 12px; height: 224px;}
+#productSpace .jcarousel-item {text-align:center;}
+#productSpace .jcarousel-item-horizontal {}
+#productSpace ul {}
+#productSpace .jcarousel-item-placeholder {}
+#productSpace .jcarousel-list li {width: 179px; height:224px;}
+
+
+/**
+ *  Horizontal Buttons
+ */
+#productSpace .jcarousel-next-horizontal {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight.png) no-repeat 0 0;
+}
+
+#productSpace .jcarousel-next-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight_on.png) no-repeat 0 0;
+}
+
+#productSpace .jcarousel-next-disabled-horizontal,
+#productSpace .jcarousel-next-disabled-horizontal:hover,
+#productSpace .jcarousel-next-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/carousel_moreRight_off.png) no-repeat 0 0;
+}
+
+/*#productSpace .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}*/
+
+#productSpace .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft.png) no-repeat 0 0;
+}
+
+#productSpace .jcarousel-prev-horizontal:hover {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_on.png) no-repeat 0 0;
+}
+
+#productSpace .jcarousel-prev-disabled-horizontal,
+#productSpace .jcarousel-prev-disabled-horizontal:hover,
+#productSpace .jcarousel-prev-disabled-horizontal:active {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/carousel_moreLeft_off.png) no-repeat 0 0;
+}
+
+/* relatedProd  Products carousel */
+
+.relatedProd .jcarousel-container {
+	width: 686px;
+    height: 224px;
+	vertical-align:middle;
+}
+
+.relatedProd  .jcarousel-container-horizontal {}
+.relatedProd  .jcarousel-clip-horizontal {width: 660px; margin-left: 6px; height: 224px;}
+.relatedProd  .jcarousel-item {text-align:center;}
+.relatedProd  .jcarousel-item-horizontal {}
+.relatedProd  ul {}
+.relatedProd  .jcarousel-item-placeholder {}
+.relatedProd  .jcarousel-list li {width: 164px; height:224px;}
+
+
+/**
+ *  Horizontal Buttons
+ */
+.relatedProd  .jcarousel-next-horizontal {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/relatedProd_ron.png) no-repeat 0 0;
+}
+
+.relatedProd  .jcarousel-next-horizontal:hover {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/relatedProd_ron.png) no-repeat 0 0;
+}
+
+.relatedProd  .jcarousel-next-disabled-horizontal,
+.relatedProd  .jcarousel-next-disabled-horizontal:hover,
+.relatedProd  .jcarousel-next-disabled-horizontal:active {
+    position: absolute;
+    top: 90px;
+    right: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+    background: transparent  url(/images/relatedProd_roff.png) no-repeat 0 0;
+}
+
+/*.relatedProd  .jcarousel-next-horizontal:active {
+    background-position: -64px 0;
+}*/
+
+.relatedProd  .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/relatedProd_lon.png) no-repeat 0 0;
+}
+
+.relatedProd  .jcarousel-prev-horizontal:hover {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/relatedProd_lon.png) no-repeat 0 0;
+}
+
+.relatedProd  .jcarousel-prev-disabled-horizontal,
+.relatedProd  .jcarousel-prev-disabled-horizontal:hover,
+.relatedProd  .jcarousel-prev-disabled-horizontal:active {
+    position: absolute;
+    top: 90px;
+    left: 0px;
+    width: 13px;
+    height: 224px;
+    cursor: pointer;
+	background: transparent  url(/images/relatedProd_loff.png) no-repeat 0 0;
+}
